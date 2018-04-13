@@ -41,9 +41,11 @@ an ontology is a formal naming and definition of the types, properties, and inte
 
 **知识图谱**:Google的知识库的名字，不过好像现在很多把知识图谱等价于知识库来看待，原因大概在于很多场合中知识库的数据都是以RDF三元组的模式存储的，等价于一个图。。
 
+
+
 **2.构建知识库的方法都有哪些 看了哪些**
 * 来源 https://www.zhihu.com/question/19558514
-手工建立本体一般分为8个阶段。下面拿例子简单介绍建立本体的8个阶段，希望能对楼主理解“本体的具体例子”有帮助。
+手工建立本体一般分为8个阶段。下面拿例子简单介绍建立本体的8个阶段
 1. 确定范围：确定“小说”这个论域
 2. 考虑复用：复用DBpedia和Dublin Core中的部分术语
 3. 列举术语：列举出Library、Novel、Writer、Translator等小说论域中重要的术语
@@ -53,7 +55,18 @@ an ontology is a formal naming and definition of the types, properties, and inte
 7. 定义实例：如，导入《射雕英雄传》这本书及其相关信息
 8. 检查异常：在protégé4.3中，可以使用推理机对本体自身的不一致和置入本体的实例集不一致进行检查
 
-* 哈哈哈哈
+斯坦福大学的一个开源框架 protégé 
+
+* 知识图谱技术综述论文 http://www.xml-data.org/dzkj-nature/html/201645589.htm
+感觉对于从构建到评估到使用的技术总结的很全了，所以导致感觉要做的东西太多太复杂了。。这种时候感觉应该找一个具体而简单的例子做一个baseline
+然后再参考其中技术 进行改进。
+
+* 知识图谱构建流程简单介绍 
+https://www.zhihu.com/question/26385031 有点赞过
+https://blog.csdn.net/zhangqiagn1104/article/details/49800349
+
+
+实体对齐 entity alignment：是判断相同或者不相同数据集中的两个实体是否指向真实世界中同一对象的过程
 
 
 
